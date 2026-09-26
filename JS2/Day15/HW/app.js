@@ -113,21 +113,36 @@
 // kite3(4)
 
 
-let n = 7
+// let n = 7
 
-  for(let i = 1; i <= n; i++)
-  {
-    let str = ""
+//   for(let i = 1; i <= n; i++)
+//   {
+//     let str = ""
 
-    for(let sp = 1; sp <= n - i; sp++)
-    {
-      str += " "
-    }
+//     for(let sp = 1; sp <= n - i; sp++)
+//     {
+//       str += " "
+//     }
 
-    for(let st = 1; st <= i; st++)
-    {
-      str += "* "
-    }
+//     for(let st = 1; st <= i; st++)
+//     {
+//       str += "* "
+//     }
 
-    console.log(str)
-  }
+//     console.log(str)
+//   }
+
+
+
+
+let n = 9
+if(n % 3 == 0 && n % 5 == 0)
+{
+    console.log("OK")
+}
+
+
+if(n % 3 == 0 || n % 5 == 0)
+{
+    console.log("OK2")
+}
